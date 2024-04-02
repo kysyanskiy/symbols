@@ -1,0 +1,25 @@
+body{
+    background-color: firebrick;
+}
+p{
+    background: linear-gradient(to bottom right, #ff9a9e, #feb47b);
+    font-size: 35px;
+    color: aqua;
+    
+}
+ul{
+    font-size: 25px;
+    color: steelblue;
+}
+ul.cheepseeki li::marker{
+    color: cadetblue;
+    font-size: 1.7em;
+}
+ul.ammo02{
+    list-style: emojies;
+}
+@counter-style emojies {
+    system: fixed;
+    symbols: 🦊 🐈 🐱 🐩 🦄 🦓 🐷 🐪;
+    suffix: " ";
+}
