@@ -7,7 +7,7 @@ p{
     color: aqua;
     
 }
-ul{
+ul,ol{
     font-size: 25px;
     color: steelblue;
 }
